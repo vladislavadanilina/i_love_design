@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+html {
+	height: 100%;
+}
+
+body {
+	font: 400 18px/1.6 "Open Sans", sans-serif;
+	color: #888a8b;
+	min-height: 100%;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 960px;
+}
+
+.ba-header {
+	background: #23232e;
+	color:  #fff;
+	padding: 10vh 0;
+	height: 100vh;
+	position: relative;
+}
+
+.logo {
+	margin-bottom: 8vh;
+	width:  140px;
+}
+
+.heading {
+	text-transform: uppercase;
+	font-size: 80px;
+	margin: 5vh 0;
+}
+
+.subheading {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.scroll {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	bottom: 5vh;
+	left:  50%;
+	transform: translate(-50%, 0);
+	background-image: url(../img/arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all .25s ease-in;
+}
+
+.scroll:hover,
+.scroll:focus {
+	transform: translate(-50%, 0) scale(1.2);
+}
+main{
+	padding:  10vh 0;
+	color:  #464b4f;
+	background-image: url(../img/bg.png);
+	background-position: center;
+	background-size:  cover;
+
+}
+.text{
+	font-size: 30px;
+	width: 98%;
+	margin: 0 auto 10vh; 
+}
+.column h3{
+	text-transform:  uppercase;
+}
+.column div{
+	color: #888a8b;
+}
